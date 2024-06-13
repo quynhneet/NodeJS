@@ -7,8 +7,6 @@ require('dotenv').config();
 
 let app = express();
 
-//config app
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }))
 
